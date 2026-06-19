@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/admin/keys/[provider]/route": "app/api/admin/keys/[provider]/route.js",
+  "/api/admin/keys/route": "app/api/admin/keys/route.js",
+  "/api/ai/recommendations/route": "app/api/ai/recommendations/route.js",
+  "/api/cart/optimize/route": "app/api/cart/optimize/route.js",
+  "/api/health/route": "app/api/health/route.js",
+  "/api/models/route": "app/api/models/route.js",
+  "/api/playground/run/route": "app/api/playground/run/route.js",
+  "/api/search/route": "app/api/search/route.js",
+  "/api/secrets/save/route": "app/api/secrets/save/route.js",
+  "/api/stats/route": "app/api/stats/route.js",
+  "/page": "app/page.js"
+}

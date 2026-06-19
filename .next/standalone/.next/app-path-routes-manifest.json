@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/admin/keys/[provider]/route": "/api/admin/keys/[provider]",
+  "/api/admin/keys/route": "/api/admin/keys",
+  "/api/ai/recommendations/route": "/api/ai/recommendations",
+  "/api/cart/optimize/route": "/api/cart/optimize",
+  "/api/health/route": "/api/health",
+  "/api/models/route": "/api/models",
+  "/api/playground/run/route": "/api/playground/run",
+  "/api/search/route": "/api/search",
+  "/api/secrets/save/route": "/api/secrets/save",
+  "/api/stats/route": "/api/stats",
+  "/page": "/"
+}
