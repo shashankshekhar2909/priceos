@@ -1,0 +1,6 @@
+{
+  "name": "PriceOS",
+  "description": "Enterprise-grade price intelligence, comparison, and cart optimization platform featuring multi-provider indexing, AI-powered product matching, and automated alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

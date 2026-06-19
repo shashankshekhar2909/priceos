@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "Canonical product in the comparison catalog",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "brand": { "type": "string" },
+        "category": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["id", "name", "brand", "category", "imageUrl"]
+    },
+    "AdminSetting": {
+      "title": "AdminSetting",
+      "description": "Administrative configurations and secrets",
+      "type": "object",
+      "properties": {
+        "key": { "type": "string" },
+        "value": { "type": "string" }
+      },
+      "required": ["key", "value"]
+    }
+  },
+  "firestore": {
+    "/products/{productId}": {
+      "schema": "Product",
+      "description": "PriceOS product index records"
+    },
+    "/adminSettings/{settingId}": {
+      "schema": "AdminSetting",
+      "description": "Secure dashboard credentials and flags"
+    }
+  }
+}
